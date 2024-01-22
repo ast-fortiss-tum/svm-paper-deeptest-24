@@ -1,0 +1,3 @@
+algo (subject: NSGA-II-SVM),p_value,effect
+NSGA-II-DT,0.001953125,0.02
+RS,0.001953125,0.0
