@@ -48,7 +48,7 @@ The detailed results are provided here: [Results ratio](results/ratio/svm_ratio.
 </center>
 <div style="margin: 40;"></div>
 <center>
-    <div style="display: flex; align-items: center">
+    <div style="display: flex; align-items: center; justify-content: center">
         <img src="results/algorithm/kernel_svm_1_c-1.png" alt="First step of NSGA-II-SVM" width="125" style="margin: 1;">
         <img src="results/algorithm/kernel_svm_2_c-1.png" alt="Second step of NSGA-II-SVM" width="125" style="margin: 1;">
         <img src="results/algorithm/kernel_svm_3_c-1.png" alt="New iteration with first step of NSGA-II-SVM" width="125" style="margin: 1;">
