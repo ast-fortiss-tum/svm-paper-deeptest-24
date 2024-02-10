@@ -34,3 +34,28 @@ Below are provided results which show the ratio of critical test cases from all 
 </center>
 
 The detailed results are provided here: [Results ratio](results/ratio/svm_ratio.txt)
+
+## Additional material
+
+<center>
+    <p float="left">
+        <img src="results/motivation/DT_example.png" alt="Exemplary Decision Tree algorithm" width="300">
+        <img src="results/motivation/SVM_example.png" alt="Exemplary SVM algorithm" width="300">
+    </p>
+     <figcaption>
+     Illustration of difference between boundary identification by a Decision Tree and Support Vector Machine for data from two classes(circle/triangle positive/negative data).
+     </figcaption>
+</center>
+<div style="margin: 40;"></div>
+<center>
+    <div style="display: flex; align-items: center">
+        <img src="results/algorithm/kernel_svm_1_c-1.png" alt="First step of NSGA-II-SVM" width="125" style="margin: 1;">
+        <img src="results/algorithm/kernel_svm_2_c-1.png" alt="Second step of NSGA-II-SVM" width="125" style="margin: 1;">
+        <img src="results/algorithm/kernel_svm_3_c-1.png" alt="New iteration with first step of NSGA-II-SVM" width="125" style="margin: 1;">
+        <img src="results/algorithm/kernel_svm_4_c-1.png" alt="New iteration with second step of NSGA-II-SVM" width="125" style="margin: 1;">
+        <img src="results/algorithm/kernel_svm_legend_c-1.png" alt="Legend for NSGA-II-SVM algorithm steps" width="125" style="margin: 1;">
+    </div>
+    <figcaption>
+     Overview of the main steps of NSGA-II-SVM. a) Genetic search using NSGA-II. b) Learned SVM-model for failing region prediction and sampling inside region. c) Genetic search with NSGA-II in subsequent iteration using evaluated samples and best solutions found. d) Refined SVM-model learning. Arrows indicate genetic operations.
+     </figcaption>
+</center>
